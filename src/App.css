@@ -1,22 +1,198 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 1200px;
 }
 
-.App-logo {
-  height: 40vmin;
+.services {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/*FONTS*/
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Light-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-LightItalic-webfont.woff") format("woff");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Bold-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold; /* Or 700 */
+}
+
+body {
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  color: #777777;
+}
+
+/*General page layout*/
+
+html,
+body {
+  height: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white !important;
+}
+
+header {
+  background-color: #4fbfa8;
+  color: white !important;
+}
+/*Intro layout*/
+
+.intro {
+  background-image: url("./images/backgrxs.jpg");
+  max-height: 100%;
+}
+
+.it {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+.intro span {
+  margin-top: 20px;
+  padding: 12px 20px 12px 20px;
+  border: 4px solid white;
+  border-radius: 50%;
+  color: white;
+  width: 100px;
+}
+
+.hello {
+  font-size: 45px;
   color: white;
 }
+/*Articles layout*/
 
-.App-link {
-  color: #09d3ac;
+article {
+  margin-bottom: 100px;
+}
+article h1 {
+  padding-bottom: 20px;
+}
+.services p {
+  margin-bottom: 30px;
+}
+
+progress {
+  background: #4fbfa8;
+}
+progress {
+  width: 100%;
+  background-color: lightgray;
+  color: #4fbfa8;
+  height: 30px;
+}
+progress::-webkit-progress-bar {
+  background: lightgray;
+}
+progress::-webkit-progress-value {
+  background-color: #4fbfa8;
+}
+progress::-moz-progress-bar {
+  background-color: #4fbfa8;
+}
+
+.about h2 {
+  padding-top: 20px;
+}
+.about h2:first-of-type {
+  padding-top: 0px;
+}
+
+.services {
+  background-color: #4fbfa8;
+  color: white;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #4fbfa8 !important;
+  border: solid 3px #4fbfa8 !important;
+}
+@keyframes text-appear {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 20px;
+  }
+}
+
+.about-me:hover {
+  animation: text-appear 5s;
+}
+
+@media all and (min-width: 400px) {
+  .intro {
+    background-image: url("./images/backgrmx.jpg");
+  }
+  .intro p:first-of-type {
+    padding-top: 100px;
+  }
+  .intro p:last-of-type {
+    padding-bottom: 140px;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .intro {
+    background-image: url("./images/backgrbg.jpg");
+    max-height: 1500px;
+  }
+  .intro p:first-of-type {
+    padding-top: 200px;
+  }
+  .intro p:last-of-type {
+    padding-bottom: 140px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  html,
+  body {
+    height: 100%;
+  }
+
+  html {
+    display: table;
+    margin: auto;
+  }
+
+  body {
+    display: table-cell;
+    vertical-align: middle;
+  }
 }
