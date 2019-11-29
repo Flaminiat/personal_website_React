@@ -1,0 +1,26 @@
+.paragr-one {
+  animation-name: bottomFadeOut;
+  opacity: 1;
+  animation-delay: 1s;
+  animation-duration: 3s;
+}
+
+.paragr-two {
+  animation-name: bottomFadeOut;
+  opacity: 1;
+  animation-duration: 3s;
+}
+
+@keyframes bottomFadeOut {
+  0% {
+    letter-spacing: -10px;
+  }
+
+  50% {
+    letter-spacing: -5px;
+  }
+
+  100% {
+    letter-spacing: 0px;
+  }
+}

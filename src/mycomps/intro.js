@@ -1,4 +1,5 @@
 import React from "react";
+import "./aboutme.css";
 
 const Intro = () => {
   return (
@@ -6,9 +7,9 @@ const Intro = () => {
       <h1 className="it">
         <span>IT</span>
       </h1>
-      <p className="ml-3 hello">Buongiorno,</p>
-      <p className="ml-3 hello">good morning,</p>
-      <p className="ml-3 hello">bonjour!</p>
+      <p className="ml-3 hello paragr-one">Buongiorno,</p>
+      <p className="ml-3 hello paragr-one">good morning,</p>
+      <p className="ml-3 hello paragr-one">bonjour!</p>
     </article>
   );
 };

@@ -6,6 +6,7 @@ import Services from "./mycomps/services";
 import AboutMe from "./mycomps/aboutme";
 import Intro from "./mycomps/intro";
 import MainNav from "./mycomps/mainnav";
+import "animate.css/animate.min.css";
 
 function App() {
   return (
