@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Contact from "./mycomps/contact";
 import Services from "./mycomps/services";
 import AboutMe from "./mycomps/aboutme";
 import Intro from "./mycomps/intro";
 import MainNav from "./mycomps/mainnav";
+import Portfolio from "./mycomps/portfolio";
 import "animate.css/animate.min.css";
 
 function App() {
@@ -14,11 +14,12 @@ function App() {
       <header className="App-header">
         <MainNav />
       </header>
+
       <main>
         <Intro />
         <AboutMe />
+        <Portfolio />
         <Services />
-        <Contact />
       </main>
     </div>
   );

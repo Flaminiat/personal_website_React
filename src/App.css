@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   max-width: 1200px;
 }
 
@@ -67,7 +65,7 @@ a {
 }
 
 header {
-  background-color: #4fbfa8;
+  background-color: #4fbfa8 !important;
   color: white !important;
 }
 /*Intro layout*/

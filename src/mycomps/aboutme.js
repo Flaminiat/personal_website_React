@@ -15,42 +15,42 @@ const AboutMe = () => {
             animatePreScrol={false}
           >
             <p className="paragr">
-              An sincerity so extremity he additions. Her yet there truth merit.
-              Mrs all projecting favourable now unpleasing. Son law garden
-              chatty temper. Oh children provided to mr elegance marriage
-              strongly. Off can admiration prosperous now devonshire diminution
-              law.
+              I am passionate about social justice and equality. I care for the
+              environment and I would like to contribute to leave a better
+              planet than the one I found. I am always eager to take on new
+              challenges and find creative ways to solve old and new problems. I
+              love to feed my mobile soul seeing and experiencing new places, no
+              difference whether it's going to be close-by or far-away.
             </p>
 
             <p className="paragr">
-              Received overcame oh sensible so at an. Formed do change merely to
-              county it. Am separate contempt domestic to to oh. On relation my
-              so addition branched. Put hearing cottage she norland letters
-              equally prepare too. Replied exposed savings he no viewing as up.
-              Soon body add him hill. No father living really people estate if.
-              Mistake do produce beloved demesne if am pursuit.
+              I just completed a full-stack developer course with CODE YOUR
+              FUTURE, a London-based start-up that teaches coding. I enrolled in
+              this course to become knowledgeble in coding and familiar with
+              Javascript and other web languages to complete my skills as a
+              mapper (I can use both ArcMap and QGis).
             </p>
             <p className="paragr">
-              An sincerity so extremity he additions. Her yet there truth merit.
-              Mrs all projecting favourable now unpleasing. Son law garden
-              chatty temper. Oh children provided to mr elegance marriage
-              strongly. Off can admiration prosperous now devonshire diminution
-              law.
+              Before getting into coding I spent the great majority of my
+              professional life working for no-profit organizations. I performed
+              several tasks such as general administrative support, program
+              management, writing and editing of reports, articles, production
+              of content for the website and for other communication purposes.
             </p>
           </ScrollAnimation>
         </div>
-
+        <h2 className="text-center mb-5">SOME OF MY SKILLS</h2>
         <div className="one-column">
           <h2>GIS - ArcMap</h2>
           <progress value="90" max="100"></progress>
           <h2>GIS - QGis</h2>
           <progress value="80" max="100"></progress>
           <h2>Javascript</h2>
-          <progress value="50" max="100"></progress>
+          <progress value="70" max="100"></progress>
           <h2>HTML Coding</h2>
-          <progress value="50" max="100"></progress>
+          <progress value="70" max="100"></progress>
           <h2>React</h2>
-          <progress value="10" max="100"></progress>
+          <progress value="40" max="100"></progress>
         </div>
       </div>
     </article>
